@@ -1,0 +1,22 @@
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: tmon-server
+  labels:
+    app: tmon-server
+spec:
+  selector:
+    matchLabels:
+      app: tmon-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tmon-server
+    spec:
+      containers:
+      - name: shop
+        image: devcluster.icp:8500/default/tmon-server:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
