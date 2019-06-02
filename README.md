@@ -1,10 +1,8 @@
 # tmon-server
-Using vert.x framework (based on java) integration with redis, postgresql
+Using vert.x framework (based on java) integration with redis, postgresql  
 
 
-Deploy to k8s
-----
-
+#Deploy to k8s
 ## Preparation
 
 You will need to build your image first.
