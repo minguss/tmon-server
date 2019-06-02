@@ -3,9 +3,9 @@ Using vert.x framework (based on java) integration with redis, postgresql
 
 Todo
 - [x] redis
-- [] API Gateway
-- [] Swagger
-- [] postgresql
+- [ ] APIGateway
+- [ ] Swagger
+- [ ] postgresql
 
 # Deploy to k8s
 ## Preparation
