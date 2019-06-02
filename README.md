@@ -2,7 +2,7 @@
 Using vert.x framework (based on java) integration with redis, postgresql  
 
 Todo
-[x] redis
+[*] redis
 [] API Gateway
 [] Swagger
 [] postgresql
