@@ -1,6 +1,8 @@
 # tmon-server
-This repository is created for class assignments.
+This repository is created for class assignments.  
 Using vert.x framework (based on java) integration with redis, postgresql  
+And added the kubernetes folder for distribution in the kubernetes environment.  
+It plans to add scaffold later to make it possible to build and distribute scripts.
 
 Todo
 - [x] redis
