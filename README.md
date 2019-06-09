@@ -1,4 +1,5 @@
 # tmon-server
+This repository is created for class assignments.
 Using vert.x framework (based on java) integration with redis, postgresql  
 
 Todo
